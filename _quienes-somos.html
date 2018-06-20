@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Foto Europa · Quienes somos</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
+    <link rel="manifest" href="img/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .row>.column {
+        padding: 0 8px;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .column {
+        float: left;
+        width: 25%;
+    }
+    /* The Modal (background) */
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+    }
+    /* Modal Content */
+    
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+    }
+    /* The Close Button */
+    
+    .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Number text (1/3 etc) */
+    
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+    }
+    
+    .demo {
+        opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+    
+    img.hover-shadow {
+        transition: 0.3s
+    }
+    
+    .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+</style>
+
+<body>
+
+    <!-- header -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Foto Europa" src="img/logo_fotoeuropa.png">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank">Tienda</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li class="active"><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /. header -->
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <section class="row somos">
+            <div class="visible-xs text-center col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                <h1>¿Quienes Somos?</h1>
+                <div class="sep"></div>
+                <p class="pad_top1 pad_bot1">Con avanzados equipos fotográficos traídos de su Europa natal, en 1949 Adolfo Perissich crea la marca Foto Europa, gracias al conocimiento, la experiencia y tantos años de tradición fotográfica (ya que su padre también era fotógrafo), el estudio no tardó mucho en convertirse en un clásico de Zona Sur. Primero dedicándose a los retratos de estudio con un estilo único para la época y luego avanzando hacia la fotografía social, taller de tratamiento fotografico y laboratorio de revelado e impresión.
+                </p>
+                <a href="index.html"><button type="button" class="btn line">Volver al inicio</button></a>
+            </div>
+            <div class="hidden-xs col-xs-12 col-sm-6 col-md-6 col-lg-6 col-lg-offset-2">
+                <h1>¿Quienes Somos?</h1>
+                <div class="sep2"></div>
+                <div class="row">
+                    <p class="col-lg-6 pad_top1 pad_bot1">Con avanzados equipos fotográficos traídos de su Europa natal, en 1949 Adolfo Perissich crea la marca Foto Europa, gracias al conocimiento, la experiencia y tantos años de tradición fotográfica (ya que su padre también era fotógrafo), el estudio no tardó mucho en convertirse en un clásico de Zona Sur. Primero dedicándose a los retratos de estudio con un estilo único para la época y luego avanzando hacia la fotografía social, taller de tratamiento fotografico y laboratorio de revelado e impresión.
+                    </p>
+                    <div class="col-lg-12">
+                        <a href="index.html"><button type="button" class="btn line">Volver al inicio</button></a>
+                    </div>
+                </div>
+                <!--/.row-->
+
+            </div>
+    </div>
+    </section>
+    <div class="row">
+        <img class="img-responsive visible-xs" src="img/720x1080-somos.jpg" alt="Quienes somos">
+    </div>
+    <!--/.Main Container-->
+
+    <div class="container-fluid no-pad">
+        <section class="visible-xs mapa">
+            <div class="row map-container">
+                <div class="no-pad col-xs-12">
+                    <iframe src="https://snazzymaps.com/embed/26051" width="300px" height="300px" style="border:none;"></iframe>
+                </div>
+            </div>
+            <!--/.mapa-->
+        </section>
+    </div>
+    <div class="container-fluid">
+        <!-- desktop -->
+        <div class="row mapa-datos hidden-xs">
+            <section class="col-sm-6 col-md-6 col-lg-6 mapa no-pad">
+                <div class="map-container pull-left">
+                    <iframe src="https://snazzymaps.com/embed/26051" height="583" width="320" style="border:none;"></iframe>
+                </div>
+                <!--/.mapa-->
+            </section>
+            <section class="col-sm-6 col-md-6 col-lg-6 no-pad">
+                <div class="bg-grey pad_top3 pad_bot3 txt">
+                    <h1 class="white mar_bot1">Dirección</h1>
+                    <div class="sep2"></div>
+                    <a href="https://www.facebook.com/foto.europa.7/" target="_blank">
+                        <div class="h3 blue mar_bot1">Lomas de Zamora <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <ul class="white">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Boedo 224 - Lomas de Zamora</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4245-0204 / 4244-4841</li>
+                        <li><a href="mailto:pedidos@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> pedidos@fotoeuropa.com.ar
+                    </a></li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.00 a 20.00hs</li>
+                        <li><i class="fa fa-clock-o grey" aria-hidden="true"></i> Sábados de 8.00 a 14.00hs</li>
+                    </ul>
+                    <div class="sep2 mar_top2"></div>
+                    <a href="https://www.facebook.com/fotoeuropaarana123/" target="_blank">
+                        <div class="h3 blue mar_bot1">Monte Grande <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <ul class="white">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Eduardo Arana 123 - Monte Grande</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4290-2306</li>
+                        <li><a href="mailto:montegrande@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> montegrande@fotoeuropa.com.ar</a></li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.30 a 13:30hs - 15.30 a 19.30hs. Sábados de 8.30 a 13.30hs</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--/.Main Container-->
+
+    <footer class="container-fluid">
+        <section class="visible-xs row bg-grey">
+            <div class="col-xs-12">
+                <h1 class="white mar_bot1">Dirección</h1>
+                <div class="sep2"></div>
+                <a class="blue h3" href="https://www.facebook.com/foto.europa.7/" target="_blank">
+                    Lomas de Zamora <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+
+                <ul class="white">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Boedo 224 - Lomas de Zamora</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4245-0204 / 4244-4841</li>
+                    <li><a href="mailto:pedidos@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> pedidos@fotoeuropa.com.ar
+                    </a></li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.00 a 20.00hs</li>
+                    <li><i class="fa fa-clock-o grey" aria-hidden="true"></i> Sábados de 8.00 a 14.00hs</li>
+                </ul>
+                <div class="sep2 mar_top2"></div>
+                <a class="blue h3" href="https://www.facebook.com/fotoeuropaarana123/" target="_blank">
+                    Monte Grande <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <ul class="white">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Eduardo Arana 123 - Monte Grande</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4290-2306</li>
+                    <li><a href="mailto:montegrande@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> montegrande@fotoeuropa.com.ar</a></li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.30 a 13:30hs - 15.30 a 19.30hs. Sábados de 8.30 a 13.30hs</li>
+                </ul>
+            </div>
+        </section>
+        <!--desktop-->
+    </footer>
+
+    <section class="footer container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-5 col-lg-4 pull-left">
+                    <img src="img/logo_fotoeuropa.png" alt="Foto Europa">
+                </div>
+                <div class="legal col-xs-6 col-xs-offset-1 col-lg-3 pull-right">
+                    <p>Foto Europa 2017. Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.map-container')
+            .click(function() {
+                $(this).find('iframe').addClass('clicked')
+            })
+            .mouseleave(function() {
+                $(this).find('iframe').removeClass('clicked')
+            });
+    </script>
+    <script>
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+</body>
+
+</html>

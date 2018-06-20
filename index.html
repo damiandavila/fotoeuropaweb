@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Foto Europa</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
+    <link rel="manifest" href="img/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- header -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Foto Europa" src="img/logo_fotoeuropa.png">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank">Tienda</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /. header -->
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!--SLIDER-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="visible-xs" src="img/slider-movile/slider-3.jpg" alt="calidad">
+                        <img class="hidden-xs" src="img/slider-3.jpg" alt="recuerdos">
+                        <div class="carousel-caption">
+                            <h1 class="h1">Calidad Asegurada</h1>
+                            <h4 class="pad_bot3 hidden-xs">Conoce todos nuestros productos visitando la tienda online</h4>
+                            <button type="button" class="btn"><a href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank">Ver más</a></button>
+                            <h3 class="hidden-sm hidden-md mar_top1"><i class="fa fa-chevron-down" aria-hidden="true"></i></h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="visible-xs" src="img/slider-movile/slider-2.jpg" alt="recuerdos">
+                        <img class="hidden-xs" src="img/slider-2.jpg" alt="recuerdos">
+                        <div class="carousel-caption">
+                            <h1 class="h1">Compras online y envíos a todo el país</h1>
+                            <h4 class="pad_bot3 hidden-xs">Elegís el fotolibro que más te gusta en nuestra web, lo diseñamos y si lo necesitas, realizamos un envío por correo de forma transparente, fácil y segura.
+                            </h4>
+                            <a href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank"><button type="button" class="btn">Ver más</button></a>
+                            <h3 class="hidden-sm hidden-md mar_top1"><i class="fa fa-chevron-down" aria-hidden="true"></i></h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="visible-xs" src="img/slider-movile/slider-1.jpg" alt="calidad">
+                        <img class="hidden-xs" src="img/slider-1.jpg" alt="recuerdos">
+                        <div class="carousel-caption">
+                            <h1 class="h1 large">Laboratorio fotográfico profesional y Gráfica de alta definiciÓn</h1>
+                            <h4 class="pad_bot3 hidden-xs">Trabajamos únicamente con insumos profesionales, que aseguran que tus recuerdos y trabajos tengan la mayor calidad final con un acabado excepcional.</h4>
+                            <a href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank"><button type="button" class="btn">Ver más</button></a>
+                            <h3 class="hidden-sm hidden-md mar_top1"><i class="fa fa-chevron-down" aria-hidden="true"></i></h3>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--/.SLIDER-->
+        </div>
+        <!--/.row-->
+
+        <div class="row visible-lg">
+            <!-- SLIDER 2
+    ================================================== -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!--<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="first-slide" src="img/slider-bis-1.jpg">
+                        <div class="container">
+                            <div class="carousel-caption bis">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <h3 class="pad_bot4"><span style="font-size: 1.4em;">1 </span>/ &nbsp;3</h3>
+                                        <h1>¡Quiero mi fotolibro! Pero... ¿Cómo hago?</h1>
+                                        <p class="pad_bot2">Podes elegir el formato de fotolibro que mejor se adapte a tus necesidades en nuestro catálogo online. El diseño es 100% personalizado y es realizado por nuestros diseñadores. Antes de la impresión del fotolibro te enviaremos una vista previa por correo electrónico para que termines de aprobarlo y comenzamos a producirlo.</p>
+                                        <p><a class="btn btn-lg btn-primary line" href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank" role="button">Conocé nuestro catálogo</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="second-slide" src="img/slider-bis-2.jpg">
+                        <div class="container">
+                            <div class="carousel-caption bis">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <h3 class="pad_bot4"><span style="font-size: 1.4em;">2 </span>/ &nbsp;3</h3>
+                                        <h1>¿Cómo se paga el fotolibro? Muy simple:</h1>
+                                        <p class="pad_bot2">Podrás abonar todas tus compras en el local o mediante pago electrónico con tarjetas de crédito Visa, MasterCard, American Express o MercadoPago. Vía depósito o transferencia una vez que hayas generado un usuario en Nuestra Tienda. No te preocupes, ¡todos los medios electrónicos de pago son muy seguros!</p>
+                                        <p><a class="btn btn-lg btn-primary line" href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank" role="button">Conocé nuestro catálogo</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="third-slide" src="img/slider-bis-3.jpg">
+                        <div class="container">
+                            <div class="carousel-caption bis">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <h3 class="pad_bot4"><span style="font-size: 1.4em;">3 </span>/ &nbsp;3</h3>
+                                        <h1>¿Y el envío? ¿Cómo y cuándo me llega el fotolibro?</h1>
+                                        <p class="pad_bot2">No te preocupes. Podés pasar a retiraro por cualquiera de nuestros locales o te realizamos un envío por correo. Dependiendo del lugar del país, el pedido puede demorar tan sólo entre 2 a 7 días hábiles. El correo se despacha con un sistema de seguimiento, de manera que puedas seguir tu pedido en todo momento de forma online y sepas dónde se encuentra.
+                                        </p>
+                                        <p><a class="btn btn-lg btn-primary line" href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank" role="button">Conocé nuestro catálogo</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- /.SLIDER2 -->
+        </div>
+        <!--/.row-->
+
+        <!-- segundo slider MOBILE -->
+        <div class="segundo row hidden-lg">
+            <!-- SLIDER 2
+    ================================================== -->
+            <div id="segundo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!--<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="first-slide visible-sm img-fluid" src="img/1080x960-fondoazul.jpg">
+                        <img class="first-slide visible-md img-fluid" src="img/1024x768-fondoazul.jpg">
+                        <img class="first-slide visible-xs img-fluid" src="img/600x1024-fondoazul.jpg">
+                        <div class="container">
+                            <div class="carousel-caption bis">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <h3 class="pad_bot1"><span style="font-size: 1.4em;">1 </span>/ &nbsp;3</h3>
+                                        <h1>¡Quiero mi fotolibro! Pero... ¿Cómo hago?</h1>
+                                        <p class="pad_bot2">Podes elegir el formato de fotolibro que mejor se adapte a tus necesidades en nuestro catálogo online. El diseño es 100% personalizado y es realizado por nuestros diseñadores. Antes de la impresión del fotolibro te enviaremos una vista previa por correo electrónico para que termines de aprobarlo y comenzamos a producirlo.</p>
+                                        <p><a class="btn btn-lg btn-primary line" href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank" role="button">Conocé nuestro catálogo</a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="second-slide visible-sm img-fluid" src="img/1080x960-fondoazul.jpg">
+                        <img class="second-slide visible-md img-fluid" src="img/1024x768-fondoazul.jpg">
+                        <img class="second-slide visible-xs img-fluid" src="img/600x1024-fondoazul.jpg">
+
+
+                        <div class="container">
+                            <div class="carousel-caption bis">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <h3 class="pad_bot1"><span style="font-size: 1.4em;">2 </span>/ &nbsp;3</h3>
+                                        <h1>¿Cómo se paga el fotolibro? Muy simple:</h1>
+                                        <p class="pad_bot1">Podrás abonar todas tus compras en el local o mediante pago electrónico con tarjetas de crédito Visa, MasterCard, American Express o MercadoPago. Vía depósito o transferencia una vez que hayas generado un usuario en Nuestra Tienda. No te preocupes, ¡todos los medios electrónicos de pago son muy seguros!</p>
+                                        <p><a class="btn btn-lg btn-primary line" href="https://fotoeuropaprofesional.mitiendanube.com/" role="button">Conocé nuestro catálogo</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="third-slide visible-sm img-fluid" src="img/1080x960-fondoazul.jpg">
+                        <img class="third-slide visible-md img-fluid" src="img/1024x768-fondoazul.jpg">
+                        <img class="third-slide visible-xs img-fluid" src="img/600x1024-fondoazul.jpg">
+
+                        <div class="container">
+                            <div class="carousel-caption bis">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <h3 class="pad_bot1"><span style="font-size: 1.4em;">3 </span>/ &nbsp;3</h3>
+                                        <h1>¿Y el envío? ¿Cómo y cuándo me llega el fotolibro?</h1>
+                                        <p class="pad_bot2">No te preocupes. Podés pasar a retiraro por cualquiera de nuestros locales o te realizamos un envío por correo. Dependiendo del lugar del país, el pedido puede demorar tan sólo entre 2 a 7 días hábiles. El correo se despacha con un sistema de seguimiento, de manera que puedas seguir tu pedido en todo momento de forma online y sepas dónde se encuentra.
+                                        </p>
+                                        <p><a class="btn btn-lg btn-primary line" href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank" role="button">Conocé nuestro catálogo</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#segundo" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#segundo" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- /.SLIDER2 -->
+        </div>
+        <!-- /. SEGUNDO SLIDER MOBILE-->
+
+        <!-- TIENDA ONLINE -->
+        <section class="row" id="txt">
+            <div class="text-center col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                <h1>Tienda Online</h1>
+                <div class="sep"></div>
+                <p class="pad_top1 pad_bot1">En nuestra Tienda online vas a poder encontrar fotolibros y photobooks de calidad, con terminación profesional y duraderos. Conservando el valor de tus recuerdos.</p>
+                <a href="https://fotoeuropaprofesional.mitiendanube.com/" target="_blank"><button type="button" class="btn">¡VISITA NUESTRA TIENDA!</button></a>
+            </div>
+            <img class="img-responsive pad_top1 visible-xs" src="img/720x1080-tienda.png" alt="Tienda Online">
+            <img class="img-responsive pad_top1 hidden-xs" src="img/1920x1080-tienda.png" alt="Tienda Online">
+
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="row" id="txt">
+            <div class="text-center col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                <h1>Nuestros Servicios</h1>
+                <div class="sep"></div>
+                <p class="pad_top1 pad_bot1">Diversos productos hechos por nosotros, que abarcan desde impresiones fotográficas, lonas, vinilos, hasta fotolibros y diversos articulos de grafica en general.</p>
+            </div>
+        </section>
+
+        <!--Servicios DESKTOP-->
+        <div class="container servicios">
+            <div class="row visible-md visible-lg">
+                <div class="col-lg-12 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="row box">
+                                <div class="col-lg-4 col-md-4"><img src="img/fotolibros.svg" alt="Fotolibros"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h3>Fotolibros</h3>
+                                    <p>Impresión y ensamblado de calidad profesional. Utilizamos la más sofisticada tecnología de acabado de fotolibros disponible en la actualidad, garantizándote un producto de calidad premium.</p>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-4 col-md-4"><img src="img/laboratorio.svg" alt="Laboratorio Profesional"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h3>Laboratorio Profesional</h3>
+                                    <p>Nuestro laboratorio le brinda un servicio ágil y de alta calidad, atendiendo las necesidades tanto de profesionales como del público en general. Ahora puede tener todas sus copias desde 4x6cm hasta 30x90cm en papel Kodak Professional Endura.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-4 col-md-4"><img src="img/alta-definicion.svg" alt="Gráfica de Alta Definición"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h3>Gráfica de Alta Definición</h3>
+                                    <p>Impresión HD en grandes formatos de hasta 1,5M de ancho x 8M de largo, con una precisión y uniformidad sin precedentes en diferentes materiales. Impresiones en colores vivos y duraderos ideales para eventos, exposiciones, fotógrafos profesionales, artistas, diseñadores ó arquitectos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="row box">
+                                <div class="col-lg-4 col-md-4"><img src="img/diseno-grafico.svg" alt="Diseño gráfico"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h3>Diseño Gráfico</h3>
+                                    <p>Restauracion, corrección y retoque digital de fotos antiguas. Coloreo de imágenes en blanco y negro. Diseños personalizados de banners, tarjetas, invitaciones, etc.</p>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-4 col-md-4"><img src="img/offset.svg" alt="Offset Digital"></div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h3>Offset Digital</h3>
+                                    <p>Produccion gráfica a traves de la cual se realizas impresiones para folleteria, tarjetas personales, carpetas escolares, entre otras.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.Servicios DESKTOP-->
+
+        <!--accordion-->
+        <div class="row">
+            <div class="panel-group visible-xs visible-sm col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Fotolibros</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body" id="acordion">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3"><img src="img/fotolibros.svg" alt="Fotolibros" class="icono"></div>
+                                <div class="col-xs-9 col-sm-9">
+                                    <div class="txt">
+                                        Impresión y ensamblado de calidad profesional. Utilizamos la más sofisticada tecnología de acabado de fotolibros disponible en la actualidad, garantizándote un producto de calidad premium.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--/.txt-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Diseño Gráfico
+                    </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body" id="acordion">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3"><img src="img/diseno-grafico.svg" alt="Diseño Gráfico" class="icono"></div>
+                                <div class="col-xs-9 col-sm-9">
+                                    <div class="txt">
+                                        Restauracion, corrección y retoque digital de fotos antiguas.<br> Coloreo de imágenes en blanco y negro. Diseños personalizados de banners, tarjetas, invitaciones, etc.
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.txt-->
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Laboratorio Profesional
+                    </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body" id="acordion">
+
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3"><img src="img/laboratorio.svg" alt="Laboratorio Profesional" class="icono"></div>
+                                <div class="col-xs-9 col-sm-9">
+                                    <div class="txt">
+                                        Nuestro laboratorio le brinda un servicio ágil y de alta calidad, atendiendo las necesidades tanto de profesionales como del público en general. Ahora puede tener todas sus copias desde 4x6cm hasta 30x90cm en papel Kodak Professional Endura.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Offset Digital</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body" id="acordion">
+
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3"><img src="img/offset.svg" alt="Offset Digital" class="icono"></div>
+                                <div class="col-xs-9 col-sm-9">
+                                    <div class="txt">
+                                        Produccion gráfica a traves de la cual se realizas impresiones para folleteria, tarjetas personales, carpetas escolares, entre otras.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Gráfica de Alta Definición
+                    </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                        <div class="panel-body" id="acordion">
+
+
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3"><img src="img/alta-definicion.svg" alt="Gráfica de Alta Definición" class="icono"></div>
+                                <div class="col-xs-9 col-sm-9">
+                                    <div class="txt">
+                                        Impresión HD en grandes formatos de hasta 1,5M de ancho x 8M de largo, con una precisión y uniformidad sin precedentes en diferentes materiales. Impresiones en colores vivos y duraderos ideales para eventos, exposiciones, fotógrafos profesionales, artistas, diseñadores ó arquitectos.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.accordion-->
+
+        <!-- CALIDAD ASEGURADA -->
+        <section class="row bg-light" id="txt">
+            <div class="text-center col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                <h1>Calidad Asegurada</h1>
+                <div class="sep"></div>
+                <p class="pad_top1 pad_bot1">Trabajamos con insumos de alta tecnología y calidad que aseguran una calidad superior.</p>
+            </div>
+            <div class="row hidden-lg">
+                <div class="logos col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                    <div class="col-xs-4"><img src="img/logo-kodak.svg" alt="Kodak"></div>
+                    <div class="col-xs-4"><img src="img/logo-epson.svg" alt="Epson"></div>
+                    <div class="col-xs-4 hp"><img src="img/logo-hp.svg" alt="HP"></div>
+                </div>
+                <div class="logos col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                    <div class="col-xs-3"><img src="img/logo-konica.svg" alt="Konika"></div>
+                    <div class="col-xs-3"><img src="img/logo-noritsu.svg" alt="Noritsu"></div>
+                    <div class="col-xs-3"><img src="img/logo-3m.svg" alt="3M"></div>
+                    <div class="col-xs-3"><img src="img/logo-mimaki.svg" alt="Mimaki"></div>
+                </div>
+            </div>
+            <div class="row visible-lg">
+                <div class="logos col-lg-12 col-lg-offset-2">
+                    <div class="col-lg-1"><img src="img/logo-kodak.svg" alt="Kodak"></div>
+                    <div class="col-lg-1"><img src="img/logo-epson.svg" alt="Epson"></div>
+                    <div class="col-lg-1 hp"><img src="img/logo-hp.svg" alt="HP"></div>
+                    <div class="col-lg-1"><img src="img/logo-konica.svg" alt="Konika"></div>
+                    <div class="col-lg-1"><img src="img/logo-noritsu.svg" alt="Noritsu"></div>
+                    <div class="col-lg-1"><img src="img/logo-3m.svg" alt="3M"></div>
+                    <div class="col-lg-2"><img src="img/logo-mimaki.svg" alt="Mimaki"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAPA -->
+    </div>
+    <div class="container-fluid no-pad">
+        <section class="visible-xs mapa">
+            <div class="row map-container">
+                <div class="no-pad col-xs-12">
+                    <iframe src="https://snazzymaps.com/embed/26051" width="300px" height="300px" style="border:none;"></iframe>
+                </div>
+            </div>
+            <!--/.mapa-->
+        </section>
+    </div>
+    <div class="container-fluid">
+        <!-- desktop -->
+        <div class="row mapa-datos hidden-xs">
+            <section class="col-sm-6 col-md-6 col-lg-6 mapa no-pad">
+                <div class="map-container pull-left">
+                    <iframe src="https://snazzymaps.com/embed/26051" height="583" width="320" style="border:none;"></iframe>
+                </div>
+                <!--/.mapa-->
+            </section>
+            <section class="col-sm-6 col-md-6 col-lg-6 no-pad">
+                <div class="bg-grey pad_top3 pad_bot3 txt">
+                    <h1 class="white mar_bot1">Dirección</h1>
+                    <div class="sep2"></div>
+                    <a href="https://www.facebook.com/foto.europa.7/" target="_blank">
+                        <div class="h3 blue mar_bot1">Lomas de Zamora <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <ul class="white">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Boedo 224 - Lomas de Zamora</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4245-0204 / 4244-4841</li>
+                        <li><a href="mailto:pedidos@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> pedidos@fotoeuropa.com.ar
+                    </a></li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.00 a 20.00hs</li>
+                        <li><i class="fa fa-clock-o grey" aria-hidden="true"></i> Sábados de 8.00 a 14.00hs</li>
+                    </ul>
+                    <div class="sep2 mar_top2"></div>
+                    <a href="https://www.facebook.com/fotoeuropaarana123/" target="_blank">
+                        <div class="h3 blue mar_bot1">Monte Grande <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <ul class="white">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Eduardo Arana 123 - Monte Grande</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4290-2306</li>
+                        <li><a href="mailto:montegrande@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> montegrande@fotoeuropa.com.ar</a></li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.30 a 13:30hs - 15.30 a 19.30hs. Sábados de 8.30 a 13.30hs</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--/.Main Container-->
+
+    <footer class="container-fluid">
+        <section class="visible-xs row bg-grey">
+            <div class="col-xs-12">
+                <h1 class="white mar_bot1">Dirección</h1>
+                <div class="sep2"></div>
+                <a class="blue h3" href="https://www.facebook.com/foto.europa.7/" target="_blank">
+                    Lomas de Zamora <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+
+                <ul class="white">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Boedo 224 - Lomas de Zamora</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4245-0204 / 4244-4841</li>
+                    <li><a href="mailto:pedidos@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> pedidos@fotoeuropa.com.ar
+                    </a></li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.00 a 20.00hs</li>
+                    <li><i class="fa fa-clock-o grey" aria-hidden="true"></i> Sábados de 8.00 a 14.00hs</li>
+                </ul>
+                <div class="sep2 mar_top2"></div>
+                <a class="blue h3" href="https://www.facebook.com/fotoeuropaarana123/" target="_blank">
+                    Monte Grande <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <ul class="white">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Eduardo Arana 123 - Monte Grande</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> Tel.: 4290-2306</li>
+                    <li><a href="mailto:montegrande@fotoeuropa.com.ar" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true" style="margin-right: 0.5em;"></i> montegrande@fotoeuropa.com.ar</a></li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a viernes de 8.30 a 13:30hs - 15.30 a 19.30hs. Sábados de 8.30 a 13.30hs</li>
+                </ul>
+            </div>
+        </section>
+        <!--desktop-->
+    </footer>
+
+    <section class="footer container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-4 pull-left">
+                    <img src="img/logo_fotoeuropa.png" alt="Foto Europa">
+                </div>
+                <div class="legal col-xs-6 col-xs-offset-1 col-sm- col-md-4 col-lg-3 pull-right">
+                    <p>Foto Europa 2017. Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.map-container')
+            .click(function() {
+                $(this).find('iframe').addClass('clicked')
+            })
+            .mouseleave(function() {
+                $(this).find('iframe').removeClass('clicked')
+            });
+
+    </script>
+</body>
+
+</html>

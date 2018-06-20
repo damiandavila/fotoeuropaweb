@@ -1,0 +1,683 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+button a {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    padding-top: 3.3em;
+    line-height: 1.7em;
+    color: #333a45;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* COLORES */
+
+.blue {
+    color: #306CDE;
+}
+
+.bg-blue {
+    background-color: #306CDE;
+}
+
+.grey {
+    color: #333a45;
+}
+
+.bg-grey {
+    background-color: #333a45;
+}
+
+.bg-light {
+    background-color: #E6E6E6;
+}
+
+.white {
+    color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+
+/* TIPO */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3,
+.h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+.sep {
+    height: 3px;
+    background-color: #306CDE;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.sep2 {
+    height: 3px;
+    background-color: #306CDE;
+    width: 50px;
+    margin-top: 1.3em;
+    margin-bottom: 0.7em;
+}
+
+
+/* MARGIN */
+
+.mar_top1 {
+    margin-top: 1em;
+}
+
+.mar_top2 {
+    margin-top: 2em;
+}
+
+.mar_top3 {
+    margin-top: 3em;
+}
+
+.mar_bot1 {
+    margin-bottom: 1em;
+}
+
+.mar_bot2 {
+    margin-bottom: 2em;
+}
+
+.mar_bot3 {
+    margin-bottom: 3em;
+}
+
+
+/* PADDING */
+
+.pad_top1 {
+    padding-top: 1em;
+}
+
+.pad_top2 {
+    padding-top: 2em;
+}
+
+.pad_top3 {
+    padding-top: 3em;
+}
+
+.pad_bot1 {
+    padding-bottom: 1em;
+}
+
+.pad_bot2 {
+    padding-bottom: 2em;
+}
+
+.pad_bot3 {
+    padding-bottom: 3em;
+}
+
+.pad_bot4 {
+    padding-bottom: 4em;
+}
+
+.pad_bot6 {
+    padding-bottom: 6em;
+}
+
+
+/* NO MAR, NO PAD */
+
+.no-pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    background-color: #306CDE;
+    color: #fff;
+    border-radius: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+
+
+}
+.btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.btn.line {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0.5em;
+    border: 1px solid #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/********* ESTILOS ***********/
+
+/* NAVBAR */
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-inverse {
+    background-color: #232C3A;
+    border-color: #232C3A;
+}
+.navbar-toggle {
+    border: 0;
+    border-radius: 0;
+    padding: 17px 10px;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #306CDE;
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-brand {
+    float: left;
+    height: 75px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-brand img {
+    max-height: 40px;
+    height: auto;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    line-height: 43px;
+}
+.nav li.active {
+    border-bottom: 1px solid #306CDE;
+}
+.nav li:last-child {
+    border-bottom: 0;
+}
+.navbar-nav>li>a {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* SLIDER */
+.carousel-caption {
+    top: 17vh;
+}
+.h1 {
+    font-size: 1.7em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.carousel-caption h1 {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+.segundo .bis {
+    height: 76vh;
+    top: 3em;
+}
+.segundo h3,
+.segundo p,
+.segundo h1 {
+    text-align: left;
+}
+.segundo p {
+    font-size: 0.8em;
+    line-height: 1.7em;
+}
+.segundo h1 {
+    font-size: 1.5em;
+}
+
+/* SECTION */
+section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.mapa {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+
+/* SERVICIOS */
+.panel-title {
+    font-size: 1em;
+    font-weight: 500;
+}
+.servicios h3 {
+    color: #306CDE;
+    margin-bottom: 0.5em;
+}
+.servicios p {
+    font line-height: 1.4em;
+}
+.servicios .box {
+    padding: 1.5em;
+}
+.flecha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
+
+/* ACCORDION */
+#acordion .icono {
+    width: 20vw;
+    margin-right: em;
+}
+#acordion .txt {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #306CDE;
+    border-color: #306CDE;
+}
+.panel-title {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* CALIDAD ASEGURADA */
+.calidad {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.logos {
+    margin-bottom: 1em;
+}
+.logos .hp {
+    width: 60px;
+}
+
+/* MAP */
+.map-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.map-container iframe {
+    width: 100%;
+    display: block;
+    pointer-events: none;
+    position: relative;
+    /* IE needs a position other than static */
+}
+.map-container iframe.clicked {
+    pointer-events: auto;
+}
+
+/* QUIENES SOMOS */
+.somos {
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+    padding-bottom: 35em;
+}
+
+/* FOOTER */
+footer {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    line-height: 1.8em;
+}
+footer i {
+    color: #306CDE;
+    margin-right: 0.6em;
+}
+footer a {
+    color: #fff;
+}
+.footer {
+    background-color: #232C3A;
+    font-size: 0.7em;
+    color: #fff;
+    line-height: 1.8em;
+    border-top: 2px solid #306CCD;
+}
+.footer img {
+    width: 100%;
+}
+
+/***
+RESPONSIVE
+***/
+
+/* Extra small devices (phones, less than 768px) */
+
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    section {
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+    section.contacto,
+    section.serv {
+        padding-bottom: 3em;
+    }
+    .nav li.active {
+        border-bottom: 2px solid #306CDE;
+        background-color: transparent;
+    }
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: transparent;
+    }
+    .navbar-nav>li>a {
+        padding-bottom: 0;
+    }
+    #carousel-example-generic .carousel-caption {
+        height: 30vh;
+        padding-top: 3em;
+    }
+    #carousel-example-generic .carousel-caption h4 {
+        font-size: 1em;
+        line-height: 1.4;
+        padding-bottom: 2em;
+    }
+    .h1 {
+        font-size: 1.9em;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+    /* slider */
+    .btn {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+    .item h4 {
+        line-height: 1.3em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+    /* slider2 */
+    #segundo .carousel-caption {
+        top: 5vh;
+    }
+    segundo .bis {
+        height: 50vh;
+    }
+    .segundo h3 {
+        padding-top: 20px;
+    }
+    .segundo h3,
+    .segundo p,
+    .segundo h1 {
+        text-align: left;
+    }
+    .segundo p {
+        font-size: 1em;
+    }
+    .segundo h1 {
+        font-size: 2em;
+    }
+    /* servicios */
+    .servicios p {
+        font-size: 0.8em;
+        line-height: 1.7em;
+    }
+    /* calidad asegurada */
+    .logos {
+        line-height: 57px;
+    }
+    .logos img {
+        vertical-align: middle;
+        height: 100%;
+    }
+    .logos div {
+        text-align: center;
+        padding: 1.5em;
+    }
+    .logos .hp {
+        width: 100px;
+    }
+    .mapa-datos .txt {
+        padding-left: 2em;
+    }
+    .mapa-datos section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* quienes somos */
+    .somos {
+        background-image: url(../img/1080x720-somos.png);
+        background-color: #000;
+        height: 50vh;
+        color: #fff;
+    }
+    /* footer */
+    footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer {
+        background-color: #232C3A;
+        font-size: 0.7em;
+        color: #fff;
+        line-height: 1.8em;
+        border-top: 3px solid #306CCD;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .footer img {
+        width: 40%;
+    }
+    .footer .legal {
+        padding-top: 15px;
+        text-align: right;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #carousel-example-generic .carousel-caption {
+        bottom: 28vh;
+    }
+    .h1 {
+        font-size: 3em;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+    .h1.large {
+        font-size: 2em;
+    }
+    #myCarousel .carousel-caption {
+        top: 20vh;
+        bottom: 0;
+    }
+    #myCarousel .bis {
+        text-align: left;
+    }
+    #segundo .carousel-caption {
+        top: 7vh;
+    }
+    .servicios p {
+        font-size: 0.8em;
+        line-height: 1.7em;
+    }
+    .somos {
+        height: 50vh;
+        background-image: url(../img/1080x720-somos.png);
+        background-color: #000;
+    }
+    .mapa {
+        width: 50%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    section {
+        padding-top: 6em;
+        padding-bottom: 6em;
+    }
+    .container.servicios {
+        padding-bottom: 6em;
+    }
+    .h1 {
+        font-size: 3em;
+    }
+    .h1.large {
+        font-size: 3em;
+    }
+    .navbar-brand {
+        height: 85px;
+    }
+    .navbar-brand img {
+        max-height: 100%;
+    }
+    #myCarousel .carousel-caption {
+        top: 10vh;
+        bottom: 0;
+    }
+    #carousel-example-generic .carousel-caption {
+        bottom: 58vh;
+        padding-top: 13em;
+    }
+    #carousel-example-generic .carousel-caption h4 {
+        font-size: 1.2em;
+        line-height: 1.4;
+        padding-bottom: 2em;
+    }
+    .servicios p {
+        font-size: 1em;
+        line-height: 1.7em;
+    }
+    .somos {
+        background-image: url(../img/quienes_somos.jpg);
+        background-color: #000;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #000;
+    }
+    .lightbox {
+        background-color: #000;
+        padding: 3em;
+        padding-left: 0;
+        width: 80%;
+    }
+    .mapa {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .carousel-caption {
+        top: 0vh;
+    }
+    #carousel-example-generic .carousel-caption {
+        padding-top: 10em;
+    }
+    .h1,
+    .h1.large {
+        font-size: 3em;
+    }
+    .carousel-caption.bis h3 {
+        padding-bottom: 1em;
+    }
+    .carousel-caption.bis p {
+        line-height: 1.3em;
+    }
+    .somos p {
+        line-height: 1.5em;
+    }
+    .mapa {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .h1,
+    .h1.large {
+        font-size: 4em;
+    }
+    .mapa {
+        width: 50%;
+    }
+}
