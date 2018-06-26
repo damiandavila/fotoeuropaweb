@@ -25,7 +25,7 @@ body {
     line-height: 1.7em;
     color: #333a45;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .img-fluid {
@@ -252,7 +252,7 @@ h4 {
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 43px;
 }
 .nav li.active {
@@ -268,7 +268,7 @@ h4 {
 
 /* SLIDER */
 .carousel-caption {
-    top: 17vh;
+    top: 4vh;
 }
 .h1 {
     font-size: 1.7em;
@@ -304,6 +304,12 @@ section {
     padding-top: 3em;
     padding-bottom: 3em;
 }
+
+section.tienda {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .mapa {
     padding: 0;
     width: 100%;
@@ -311,6 +317,38 @@ section {
 }
 
 /* SERVICIOS */
+div.servicios-caption {
+    padding-top: 2em;
+}
+
+div.serv-caption-slider {
+    position: absolute;
+    top: 8em;
+    right: 20%;
+    left: 20%;
+    
+    z-index: 10;
+    color: #FFF;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+div.serv-caption h1 {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+div.serv-caption {
+        height: 30vh;
+        padding-top: 3em;
+    }
+div.serv-caption h4 {
+    font-size: 1em;
+    line-height: 1.4;
+    padding-bottom: 2em;
+}
+
 .panel-title {
     font-size: 1em;
     font-weight: 500;
@@ -389,8 +427,146 @@ section {
     background-color: #000;
     height: 100vh;
     color: #fff;
+    padding-top: 5em;
     padding-bottom: 35em;
 }
+
+.slider_servicios {
+    height: 20em;
+    background-image: url(../img/frente_local.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    width: 100%;
+}
+
+.slider_servicios div {
+    opacity: 1 !important;
+    color: #000;
+}
+
+/* FOTOLIBROS */
+.breadcrumb {
+    color:#232C3A;
+}
+.breadcrumb span {
+    color:#1259c3 !important;
+}
+
+.fotolibros {
+    height: 50vh;
+    color: #fff;
+    padding-bottom: 5em;
+    padding-top: 2.1em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../img/1440x300-fondoazul.jpg);
+}
+
+.fotolibros h3 {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.fadeInUp {
+    opacity: 1;
+}
+
+.fadeInUp:hover div {
+    opacity: .6;
+}
+
+div.border.tapablanda {
+    background-image: url(../img/tapablanda.jpg);
+}
+
+div.tapablandabig {
+    margin-left: .1em;
+    margin-right: .1em;
+    height: 35em;
+    margin-bottom: .5em;
+    border: 1px solid #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/tapablanda1.jpg);
+}
+
+div.tapablandasmall {
+    margin-left: .1em;
+    margin-right: .1em;
+    height: 8em;
+    border: 1px solid #ccc;
+    width: 24.57%;
+}
+
+div.tapablandasmall:hover {
+    cursor: pointer;
+}
+
+div.tapablandasmall.img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/tapablanda1.jpg);   
+}
+
+div.tapablandasmall.img2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/tapablanda2.jpg);   
+}
+
+div.tapablandasmall.img3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/tapablanda3.jpg);   
+}
+
+div.tapablandasmall.img4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/tapablanda4.jpg);   
+}
+
+div.border.tapadura {
+    background-image: url(../img/tapadura.jpg);
+}
+
+div.border.offset {
+    background-image: url(../img/offset.jpg);
+}
+
+div.border.anillado {
+    background-image: url(../img/anillado.jpg);
+}
+
+div.border.diptico {
+    background-image: url(../img/diptico.jpg);
+}
+
+div.border.portapendvd {
+    background-image: url(../img/portapendvd.jpg);
+}
+
+/* PRODUCTO */
+section.producto {
+    padding-top: 5em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../img/1440x300-fondoazul.jpg);
+}
+
+/* CONTACTO */
+
 
 /* FOOTER */
 footer {
@@ -430,9 +606,13 @@ RESPONSIVE
         padding-top: 4em;
         padding-bottom: 4em;
     }
-    section.contacto,
+    section.contacto {
+        padding-bottom: 1em;
+        padding-top: 5em;
+    }
+
     section.serv {
-        padding-bottom: 3em;
+        padding-bottom: 1em;
     }
     .nav li.active {
         border-bottom: 2px solid #306CDE;
@@ -500,20 +680,59 @@ RESPONSIVE
         font-size: 0.8em;
         line-height: 1.7em;
     }
+
+    .serv-icon img {
+        width: 20%;
+        height: auto;
+    }
+
     /* calidad asegurada */
     .logos {
-        line-height: 57px;
+        line-height: 50px;
     }
-    .logos img {
+    .logos div img {
         vertical-align: middle;
         height: 100%;
+        width: 66%;
     }
     .logos div {
         text-align: center;
         padding: 1.5em;
     }
+    .logos .kodak {
+        width: 175px;
+        padding: 0;
+        margin: 0;
+    }
+    .logos .epson {
+        width: 150px;
+        padding: 0;
+        margin: 0;
+    }
     .logos .hp {
+        width: 75px;
+        padding: 0;
+        margin: 0;
+    }
+    .logos .konika {
+        width: 125px;
+        padding: 0;
+        margin: 0;
+    }
+    .logos .noritsu {
         width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    .logos .mmm {
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    .logos .mimaki {
+        width: 145px;
+        padding: 0;
+        margin: 0;
     }
     .mapa-datos .txt {
         padding-left: 2em;
@@ -529,6 +748,52 @@ RESPONSIVE
         height: 50vh;
         color: #fff;
     }
+
+    .border div {
+        margin-left: 1em;
+        height: 18em;
+        margin-bottom: 2em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.border h3 {
+        color: #FFF;
+        position: absolute;
+        left: 32%;
+        top: 50%;
+        width: 65%;
+        letter-spacing: -1px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+
+.tapablanda div {
+    background-image: url(../img/tapablanda.jpg);
+}
+
+div.border.tapadura {
+    background-image: url(../img/tapadura.jpg);
+}
+
+div.border.offset {
+    background-image: url(../img/offset.jpg);
+}
+
+div.border.anillado {
+    background-image: url(../img/anillado.jpg);
+}
+
+div.border.diptico {
+    background-image: url(../img/diptico.jpg);
+}
+
+div.border.portapendvd {
+    background-image: url(../img/portapendvd.jpg);
+}
+
+
     /* footer */
     footer {
         padding-left: 0;
@@ -548,7 +813,7 @@ RESPONSIVE
     }
     .footer .legal {
         padding-top: 15px;
-        text-align: right;
+        text-align: center;
     }
 }
 
@@ -590,17 +855,35 @@ RESPONSIVE
     .mapa {
         width: 50%;
     }
+
+    div.border {
+        margin-left: 5em;
+        
+        height: 8em;
+        margin-bottom: 2em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.border h3 {
+        color: #fff;
+        position: absolute;
+        left: 32%;
+        top: 62%;
+        width: 65%;
+        letter-spacing: -1px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     section {
-        padding-top: 6em;
-        padding-bottom: 6em;
+        padding-top: 2em;
     }
-    .container.servicios {
-        padding-bottom: 6em;
-    }
+    
     .h1 {
         font-size: 3em;
     }
@@ -680,4 +963,39 @@ RESPONSIVE
     .mapa {
         width: 50%;
     }
+}
+
+form {
+    padding-top: 0;
+    padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 4em;
+}
+
+label {
+    display:block;
+    margin-top:.75em;
+    color: #fff;
+}
+ 
+.error {
+  position: relative;
+  z-index: 1;
+  padding: 4px;
+  border-radius: 10px;
+  color: white;
+  width: 235px;
+  text-align: center; 
+  font-size: 12px;
+  background: RGB(194, 46, 79);
+}
+
+.error::after {
+    content: '';
+    border-bottom: 15px solid RGB(194, 46, 79);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    left: 45%;
+    top: -14px;
 }
