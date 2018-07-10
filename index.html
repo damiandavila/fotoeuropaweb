@@ -66,7 +66,6 @@
                     <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
                     <li><a href="#servicios">¿Qué hacemos?</a></li>
                     <li><a href="#comprar">¿Cómo comprar?</a></li>
-                    <li><a href="#tienda">Tienda</a></li>
                     <li><a href="#ubicacion">Contacto</a></li>                    
                 </ul>
             </div>
@@ -138,14 +137,14 @@
         </div>
         <!--/.row-->
 
-        <div class="row" id="servicios">
+        <div class="row bg-light" id="servicios">
             <!-- SERVICIOS -->
-            <!--Servicios DESKTOP-->
             <div class="container servicios">
                 <div class="servicios-caption row text-center col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <h1>¿Qué hacemos?</h1>
-                    <div class="sep"></div>
+                    <h1 class="pad_top1 pad_bot1">¿Qué hacemos?</h1>
+                    <div class="sep hidden-xs"></div>
                 </div>
+                <!--Servicios DESKTOP-->
                 <div class="row visible-md visible-lg">
                     <div class="col-lg-12 col-md-12">
                         <div class="row text-center serv-icon">
@@ -160,7 +159,7 @@
                                 <div class="row box">
                                     <div class="col-lg-12 col-md-12">
                                         <img src="img/laboratorio.svg" alt="Laboratorio Profesional">
-                                        <h3>Laboratorio Profesional</h3>
+                                        <a href="laboratorio.html"><h3>Laboratorio Profesional</h3></a>
                                         <p>Ahora puedes tener todas tus copias desde 4x6cm hasta 30x90cm en papel Kodak Professional Endura.
                                         </p>
                                     </div>
@@ -170,14 +169,14 @@
                                 <div class="row box">
                                     <div class="col-lg-12 col-md-12">
                                         <img src="img/diseno-grafico.svg" alt="Diseño gráfico">
-                                        <h3>Diseño Gráfico</h3>
+                                        <a href="diseno.html"><h3>Diseño Gráfico</h3></a>
                                         <p>Restauración y retoque digital de fotos antiguas. Coloreo de imágenes en blanco y negro. Diseño personalizado de banners, tarjetas, etc.</p>
                                     </div>
                                 </div>
                                 <div class="row box">
                                     <div class="col-lg-12 col-md-12">
                                         <img src="img/offset.svg" alt="Offset Digital">
-                                        <h3>Offset Digital</h3>
+                                        <a href="offset.html"><h3>Offset Digital</h3></a>
                                         <p>Produccion gráfica a traves de la cual se realizas impresiones para folleteria, tarjetas personales, carpetas escolares, entre otras.</p>
                                     </div>
                                 </div>
@@ -186,138 +185,186 @@
                                 <div class="row box">
                                     <div class="col-lg-12 col-md-12">
                                         <img src="img/alta-definicion.svg" alt="Gráfica de Alta Definición">
-                                        <h3>Gráfica de Alta Definición</h3>
+                                        <a href="grafica.html"><h3>Gráfica de Alta Definición</h3></a>
                                         <p>Impresión HD formatos de hasta 1,5M x 8M. Colores vivos y duraderos ideales para exposiciones, fotógrafos, arquitectos.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                </div>
+                <!-- DESKTOP -->
+
+                <!--accordion-->
+                <div class="row"  id="comprar">
+                    <div class="panel-group visible-xs visible-sm col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Fotolibros</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body" id="acordion">
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3">
+                                            <a href="fotolibros.html"><img src="img/fotolibros.svg" alt="Fotolibros" class="icono"></a>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-9">
+                                            <div class="txt">
+                                                Impresión y ensamblado de calidad profesional. Utilizamos la más sofisticada tecnología de acabado de fotolibros disponible en la actualidad, garantizándote un producto de calidad premium.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!--/.txt-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Diseño Gráfico
+                            </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body" id="acordion">
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3">
+                                            <a href="diseno.html"><img src="img/diseno-grafico.svg" alt="Diseño Gráfico" class="icono"></a>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-9">
+                                            <div class="txt">
+                                                Restauracion, corrección y retoque digital de fotos antiguas.<br> Coloreo de imágenes en blanco y negro. Diseños personalizados de banners, tarjetas, invitaciones, etc.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.txt-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Laboratorio Profesional
+                            </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body" id="acordion">
+
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3">
+                                            <a href="laboratorio.html"><img src="img/laboratorio.svg" alt="Laboratorio Profesional" class="icono"></a>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-9">
+                                            <div class="txt">
+                                                Nuestro laboratorio le brinda un servicio ágil y de alta calidad, atendiendo las necesidades tanto de profesionales como del público en general. Ahora puede tener todas sus copias desde 4x6cm hasta 30x90cm en papel Kodak Professional Endura.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Offset Digital</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body" id="acordion">
+
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3">
+                                            <a href="offset.html"><img src="img/offset.svg" alt="Offset Digital" class="icono"></a>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-9">
+                                            <div class="txt">
+                                                Produccion gráfica a traves de la cual se realizas impresiones para folleteria, tarjetas personales, carpetas escolares, entre otras.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Gráfica de Alta Definición
+                            </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body" id="acordion">
+
+
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3">
+                                            <a href="grafica.html"><img src="img/alta-definicion.svg" alt="Gráfica de Alta Definición" class="icono"></a>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-9">
+                                            <div class="txt">
+                                                Impresión HD en grandes formatos de hasta 1,5M de ancho x 8M de largo, con una precisión y uniformidad sin precedentes en diferentes materiales. Impresiones en colores vivos y duraderos ideales para eventos, exposiciones, fotógrafos profesionales, artistas, diseñadores ó arquitectos.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.accordion-->
+
+                <div class="row text-center col-xs-12 col-md-12 col-lg-12">
+                    <div class="sep hidden-xs"></div>
+                    <h2 class="pad_top1 pad_bot1">Trabajamos con insumos de alta tecnología que aseguran una calidad superior</h2>
+                </div>
+                <div class="row visible-lg">
+                    <div class="logos col-lg-12 logos col-lg-offset-2">
+                        <div class="col-lg-3 "><img src="img/logo-kodak.svg" alt="Kodak"></div>
+                        <div class="col-lg-2 "><img src="img/logo-epson.svg" alt="Epson"></div>
+                        <div class="col-lg-3 "><img src="img/logo-mimaki.svg" alt="Mimaki"></div>
+                    </div>
+                    <div class="logos col-lg-12 col-lg-offset-2">
+                        <div class="col-lg-2 hp"><img src="img/logo-hp.svg" alt="HP"></div>
+                        <div class="col-lg-3 konika"><img src="img/logo-konica.svg" alt="Konika"></div>
+                        <div class="col-lg-3 noritsu"><img src="img/logo-noritsu.svg" alt="Noritsu"></div>
+                        <div class="col-lg-2 mmm"><img src="img/logo-3m.svg" alt="3M"></div>
+                    </div>
+                </div>
+                <div class="row hidden-lg">
+                    <div class="logos col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                        <div class="col-xs-4"><img src="img/logo-kodak.svg" alt="Kodak"></div>
+                        <div class="col-xs-4"><img src="img/logo-epson.svg" alt="Epson"></div>
+                        <div class="col-xs-3"><img src="img/logo-mimaki.svg" alt="Mimaki"></div>
+                    </div>
+                    <div class="logos col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                        <div class="col-xs-4 hp"><img src="img/logo-hp.svg" alt="HP"></div>
+                        <div class="col-xs-3"><img src="img/logo-konica.svg" alt="Konika"></div>
+                        <div class="col-xs-3"><img src="img/logo-noritsu.svg" alt="Noritsu"></div>
+                        <div class="col-xs-3"><img src="img/logo-3m.svg" alt="3M"></div>
                     </div>
                 </div>
             </div>
+
+
+        
+
             <!--/.Servicios DESKTOP-->
         </div>
 
-        <!--accordion-->
-        <div class="row"  id="comprar">
-            <div class="panel-group visible-xs visible-sm col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Fotolibros</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body" id="acordion">
-                            <div class="row">
-                                <div class="col-xs-3 col-sm-3"><img src="img/fotolibros.svg" alt="Fotolibros" class="icono"></div>
-                                <div class="col-xs-9 col-sm-9">
-                                    <div class="txt">
-                                        Impresión y ensamblado de calidad profesional. Utilizamos la más sofisticada tecnología de acabado de fotolibros disponible en la actualidad, garantizándote un producto de calidad premium.
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!--/.txt-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Diseño Gráfico
-                    </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="panel-body" id="acordion">
-                            <div class="row">
-                                <div class="col-xs-3 col-sm-3"><img src="img/diseno-grafico.svg" alt="Diseño Gráfico" class="icono"></div>
-                                <div class="col-xs-9 col-sm-9">
-                                    <div class="txt">
-                                        Restauracion, corrección y retoque digital de fotos antiguas.<br> Coloreo de imágenes en blanco y negro. Diseños personalizados de banners, tarjetas, invitaciones, etc.
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.txt-->
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Laboratorio Profesional
-                    </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="panel-body" id="acordion">
-
-                            <div class="row">
-                                <div class="col-xs-3 col-sm-3"><img src="img/laboratorio.svg" alt="Laboratorio Profesional" class="icono"></div>
-                                <div class="col-xs-9 col-sm-9">
-                                    <div class="txt">
-                                        Nuestro laboratorio le brinda un servicio ágil y de alta calidad, atendiendo las necesidades tanto de profesionales como del público en general. Ahora puede tener todas sus copias desde 4x6cm hasta 30x90cm en papel Kodak Professional Endura.
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Offset Digital</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        </h4>
-                    </div>
-                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                        <div class="panel-body" id="acordion">
-
-                            <div class="row">
-                                <div class="col-xs-3 col-sm-3"><img src="img/offset.svg" alt="Offset Digital" class="icono"></div>
-                                <div class="col-xs-9 col-sm-9">
-                                    <div class="txt">
-                                        Produccion gráfica a traves de la cual se realizas impresiones para folleteria, tarjetas personales, carpetas escolares, entre otras.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      Gráfica de Alta Definición
-                    </a><i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        </h4>
-                    </div>
-                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                        <div class="panel-body" id="acordion">
-
-
-                            <div class="row">
-                                <div class="col-xs-3 col-sm-3"><img src="img/alta-definicion.svg" alt="Gráfica de Alta Definición" class="icono"></div>
-                                <div class="col-xs-9 col-sm-9">
-                                    <div class="txt">
-                                        Impresión HD en grandes formatos de hasta 1,5M de ancho x 8M de largo, con una precisión y uniformidad sin precedentes en diferentes materiales. Impresiones en colores vivos y duraderos ideales para eventos, exposiciones, fotógrafos profesionales, artistas, diseñadores ó arquitectos.
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/.accordion-->
-
+        
 
         <div class="row visible-lg">
             <!-- SLIDER 2
@@ -476,7 +523,7 @@
         <!-- /. SEGUNDO SLIDER MOBILE-->
 
         <!-- TIENDA ONLINE -->
-        <section class="row tienda" id="tienda">
+        <section class="row tienda bg-light" id="tienda">
             <div class="text-center col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                 <h1>Tienda Online</h1>
                 <div class="sep"></div>
@@ -645,35 +692,6 @@
 
     <footer>
         <section class="footer container-fluid">
-            <div class="row">
-                <div class="col-xs-5 col-lg-12 text-center">
-                    <div class="row hidden-lg">
-                        <div class="logos col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <div class="col-xs-4"><img src="img/logo-kodak.svg" alt="Kodak"></div>
-                            <div class="col-xs-4"><img src="img/logo-epson.svg" alt="Epson"></div>
-                            <div class="col-xs-4 hp"><img src="img/logo-hp.svg" alt="HP"></div>
-                        </div>
-                        <div class="logos col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <div class="col-xs-3"><img src="img/logo-konica.svg" alt="Konika"></div>
-                            <div class="col-xs-3"><img src="img/logo-noritsu.svg" alt="Noritsu"></div>
-                            <div class="col-xs-3"><img src="img/logo-3m.svg" alt="3M"></div>
-                            <div class="col-xs-3"><img src="img/logo-mimaki.svg" alt="Mimaki"></div>
-                        </div>
-                    </div>
-                <div class="row visible-lg">
-                    <div class="logos col-lg-12 col-lg-offset-2">
-                        <div class="col-lg-1 kodak"><img src="img/logo-kodak.svg" alt="Kodak"></div>
-                        <div class="col-lg-1 epson"><img src="img/logo-epson.svg" alt="Epson"></div>
-                        <div class="col-lg-1 hp"><img src="img/logo-hp.svg" alt="HP"></div>
-                        <div class="col-lg-1 konika"><img src="img/logo-konica.svg" alt="Konika"></div>
-                        <div class="col-lg-1 noritsu"><img src="img/logo-noritsu.svg" alt="Noritsu"></div>
-                        <div class="col-lg-1 mmm"><img src="img/logo-3m.svg" alt="3M"></div>
-                        <div class="col-lg-1 mimaki"><img src="img/logo-mimaki.svg" alt="Mimaki"></div>
-                    </div>
-                </div>
-                </div>
-                
-            </div>
             <div class="row">
                 <div class="legal text-center col-lg-12">
                     <p>Foto Europa 2017. Todos los derechos reservados</p>
