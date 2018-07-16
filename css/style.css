@@ -474,7 +474,9 @@ div.serv-caption h4 {
 
 
 /* CONTACTO */
-
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
 
 /* FOOTER */
 footer {

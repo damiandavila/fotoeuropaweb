@@ -543,7 +543,10 @@
                 <div class="pad_top1 txt">
                     <h1 class="white">Contacto</h1>
                     <div class="sep2"></div>
-                    <form  method="post" id="gform" action="https://script.google.com/macros/s/AKfycbzXwxt1N4_jNKbF63JxUJ95_36iA0_YsvUi0v3h/exec">
+                    <form  method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxAjlrJRVK_S7DM2nlAl09bzvS6KiXPzhcyvfBvJntDhyOcd0s/exec">
+                        <!--input id must be honeypot or else it wont work-->
+                        <label class="sr-only">Keep this field blank</label>
+                        <input id="honeypot" type="text" name="honeypot" value="" />
                         <div class="form-group">
                         <label for="name">Nombre o Código de cliente</label>
                         <input type="text" required="true" class="form-control" id="name" name="name" placeholder="Nombre y apellido" value="">
