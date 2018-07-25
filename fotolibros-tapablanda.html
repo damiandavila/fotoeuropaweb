@@ -90,8 +90,8 @@
                         <a href="index.html#servicios"><span>Servicios</span></a> > <a href="fotolibros.html"><span>Fotolibros</span></a>  > Tapa Blanda
                         <div class="row">
                             <div class="col-lg-7 col-md-7">
-                                <div class="row tapablandabig" id="foto_view">
-                                </div>
+                                
+                                <div class="row tapablandabig" id="foto_view"></div>
                                 <div class="row box text-center col-lg-3 col-md-3 tapablandasmall img1" onclick="foto('img/tapablanda1.jpg')">
                                 </div>
                                 <div class="row box text-center col-lg-3 col-md-3 tapablandasmall img2" onclick=" foto('img/tapablanda2.jpg')">
@@ -105,7 +105,7 @@
                                 <h3 class="pad_bot1">Fotolibro Tapa Blanda</h3>
                                 <p class="pad_bot1">Lorem ipsum dolor sit amet consectetur adipiscing elit tristique dictumst, litora eget per sollicitudin tellus turpis non parturient suscipit aptent, id donec duis blandit ut eros odio arcu. Ornare mus sociis varius faucibus per sollicitudin nostra orci, nam diam ligula sagittis purus sociosqu blandit, vulputate nisl dictumst cum maecenas ultricies fusce. Nibh commodo neque ac gravida accumsan malesuada phasellus volutpat, fermentum parturient imperdiet facilisi vel eleifend ultricies, sapien arcu risus justo curabitur venenatis porta.
                                 Etiam torquent urna dis auctor fames sapien aliquam, nostra pretium mauris cubilia id nisl nunc class, nibh euismod luctus pharetra aliquet augue. Class taciti tristique dapibus vulputate pretium vehicula facilisis aenean montes, laoreet mi potenti auctor ridiculus nisi morbi conubia mus, aliquet ac feugiat porta euismod nunc dis commodo. Nullam netus morbi lectus dignissim vitae class etiam at, nisl vel blandit phasellus facilisis iaculis fringilla euismod, tortor maecenas inceptos habitant hac arcu lacus.</p>
-                                <button type="button" class="btn"><a href="contacto.html" target="_blank">Consultar Precio</a></button>
+                                <button type="button" class="btn"><a href="index.html#ubicacion" target="_blank">Consultar Precio</a></button>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                                 
                                 <p class="pad_bot1">Lorem ipsum dolor sit amet consectetur adipiscing elit tristique dictumst, litora eget per sollicitudin tellus turpis non parturient suscipit aptent, id donec duis blandit ut eros odio arcu. Ornare mus sociis varius faucibus per sollicitudin nostra orci, nam diam ligula sagittis purus sociosqu blandit, vulputate nisl dictumst cum maecenas ultricies fusce. Nibh commodo neque ac gravida accumsan malesuada phasellus volutpat, fermentum parturient imperdiet facilisi vel eleifend ultricies, sapien arcu risus justo curabitur venenatis porta.
                                 Etiam torquent urna dis auctor fames sapien aliquam, nostra pretium mauris cubilia id nisl nunc class, nibh euismod luctus pharetra aliquet augue. Class taciti tristique dapibus vulputate pretium vehicula facilisis aenean montes, laoreet mi potenti auctor ridiculus nisi morbi conubia mus, aliquet ac feugiat porta euismod nunc dis commodo. Nullam netus morbi lectus dignissim vitae class etiam at, nisl vel blandit phasellus facilisis iaculis fringilla euismod, tortor maecenas inceptos habitant hac arcu lacus.</p>
-                                <button type="button" class="btn"><a href="contacto.html" target="_blank">Consultar Precio</a></button>
+                                <button type="button" class="btn"><a href="index.html#ubicacion" target="_blank">Consultar Precio</a></button>
                             </div>
                         </div>
                     </div>
@@ -144,6 +144,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/ekko-lightbox.min.js"></script>
+    <!-- ubislider Javascript file -->
+    <script src="js/ubislider.min.js"></script>
+    
     <script>
         $('.map-container')
             .click(function() {
@@ -152,13 +156,12 @@
             .mouseleave(function() {
                 $(this).find('iframe').removeClass('clicked')
             });
-
     </script>
     <script type="text/javascript">
-function foto(img)
-{   
-    document.getElementById("foto_view").style.backgroundImage = "url("+img+")";
-}
+        function foto(img)
+        {   
+            document.getElementById("foto_view").style.backgroundImage = "url("+img+")";
+        }
 </script>
 </body>
 
