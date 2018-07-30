@@ -92,13 +92,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img class="visible-xs" src="img/slider-movile/slider-3.jpg" alt="calidad">
+                        <img class="visible-xs" style="min-height: 25vh;" src="img/laboratorio/slider_laboratorio001_720x240.jpg" alt="calidad">
                         <img class="hidden-xs" src="img/laboratorio/slider_laboratorio001_1920x450.jpg" alt="recuerdos">
                         
                     </div>
 
                     <div class="item">
-                        <img class="visible-xs" src="img/slider-movile/slider-2.jpg" alt="recuerdos">
+                        <img class="visible-xs" style="min-height: 25vh;" src="img/laboratorio/slider_laboratorio002_720x240.jpg" alt="calidad">
                         <img class="hidden-xs" src="img/laboratorio/slider_laboratorio002_1920x450.jpg" alt="recuerdos">
                         <!-- div class="carousel-caption">
                             <h1 class="h1">COMPRAS ONLINE Y ENVÍOS A TODO EL PAÍS</h1>
@@ -107,7 +107,7 @@
                         </div -->
                     </div>
                     <div class="item">
-                        <img class="visible-xs" src="img/slider-movile/slider-1.jpg" alt="calidad">
+                        <img class="visible-xs" style="min-height: 25vh;" src="img/laboratorio/slider_laboratorio003_720x240.jpg" alt="calidad">
                         <img class="hidden-xs" src="img/laboratorio/slider_laboratorio003_1920x450.jpg" alt="recuerdos">
                         <!-- div class="carousel-caption">
                             <h1 class="h1">LABORATORIO FOTOGRÁFICO PROFESIONAL Y GRÁFICA DE ALTA DEFINICIÓN</h1>
@@ -131,14 +131,17 @@
             <!--/.SLIDER-->
         </div>
         <!--/.row-->
-        <div class="serv-caption-slider text-center">
+        <div class="serv-caption-slider text-center hidden-xs">
             <h1 class="h1">Laboratorio Profesional</h1>
             <h4 class="pad_bot3 hidden-xs">Ahora puedes tener todas tus copias desde 4x6cm hasta 30x90cm en papel Kodak Professional Endura.</h4>
+        </div>
+        <div class="serv-caption-slider serv-caption-slider-sm text-center visible-xs">
+            <h1 class="h1 pad_top2">Laboratorio Profesional</h1>
         </div>
         <!--Servicios DESKTOP-->
         <section class="row fotolibros" id="txt">        
         <div class="container">
-            <div class="row visible-md visible-lg">
+            <div class="row hidden-xs">
                 
                 <div class="col-lg-12 col-md-12">
                     <div class="row breadcrumb description">
@@ -149,58 +152,89 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-1 col-md-1"></div>
-                            <div class="col-lg-3 col-md-3 fadeInUp">
-                            <a href="retoque.html">
-                                <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/fotolienzo001.jpg)">
-                                        <h3>Fotolienzos</h3>
-                                </div>
-                            </a>
+                            <div class="col-lg-3 col-md-3">
+                                <a href="fotolienzos.html">
+                                    <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/fotolienzo001.jpg)">
+                                            <h3>Fotolienzos</h3>
+                                    </div>
+                                </a>
                             </div>
                             
                             <div class="col-lg-3 col-md-3">
-                                <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/rollos001.jpg)">
-                                        <h3>Rollos</h3>
-                                </div>
+                                <a href="rollos.html">
+                                    <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/rollos001.jpg)">
+                                            <h3>Rollos</h3>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/impresion001.jpg)">
-                                        <h3>Impresion</h3>
-                                </div>
+                                <a href="impresion.html">
+                                    <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/impresion001.jpg)">
+                                            <h3>Impresion</h3>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-1 col-md-1"></div>
-                            <div class="col-lg-3 col-md-3">
-                                <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/encuad001.jpg)">
-                                        <h3>Encuadernacion</h3>
+                            <a href="encuadernacion.html">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="row box text-center border col-lg-offset-1 col-md-offset-1" style="background-image: url(img/laboratorio/encuad001.jpg)">
+                                            <h3>Encuadernacion</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="row visible-xs">
+                <div class="row col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <a href="fotolienzos.html">
+                            <div class="row box text-center border border-sm " style="background-image: url(img/laboratorio/fotolienzo001.jpg)">
+                                <h3>Fotolienzos</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <a href="rollos.html">
+                            <div class="row box text-center border border-sm " style="background-image: url(img/laboratorio/rollos001.jpg)">
+                                <h3>Rollos</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <a href="impresion.html">
+                            <div class="row box text-center border border-sm " style="background-image: url(img/laboratorio/impresion001.jpg)">
+                                <h3>Impresion</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <a href="encuadernacion.html">
+                            <div class="row box text-center border border-sm " style="background-image: url(img/laboratorio/encuad001.jpg)">
+                                <h3>Encuadernacion</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <!--/.Fotolibros DESKTOP-->
     <!--/.Main Container-->
     </section>
     <!--/.Section-->
-    
-
-    <section class="visible-xs row fotolibros" id="txt">
-        <div class="text-center col-xs-12 col-sm-12">
-            <h3>Elige el material de tu Fotolibro</h3>
-            <div class="sep"></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-11">
-                <div class="text-center border portapendvd col-xs-offset-1">
-                        <h3>Porta Pendrive + DVD</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
     </div>
 
     <footer>

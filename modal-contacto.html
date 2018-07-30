@@ -1,0 +1,41 @@
+<div class="modal-dialog">
+  <!-- Modal content-->
+  <div class="modal-content bg-grey white">
+    <div class="modal-header">
+      <button type="button" class="close white" data-dismiss="modal">x</button>
+      <h4 class="modal-title">Contacto</h4>
+    </div>
+    <div class="modal-body">
+      <div class="txt">
+        <form  method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxAjlrJRVK_S7DM2nlAl09bzvS6KiXPzhcyvfBvJntDhyOcd0s/exec">
+          <!--input id must be honeypot or else it wont work-->
+          <label class="sr-only">Keep this field blank</label>
+          <input id="honeypot" type="text" name="honeypot" value="" />
+          <div class="form-group">
+          <label for="name">Nombre o Código de cliente</label>
+          <input type="text" required="true" class="form-control" id="name" name="name" placeholder="Nombre y apellido" value="">
+          </div>
+          <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" required="true" class="form-control" id="email" name="email" placeholder="ejemplo@dominio.com" value="">
+          </div>
+          <div class="form-group">
+          <label for="message" class="control-label">Mensaje</label>
+          <textarea class="form-control" rows="4" required="true" name="message"></textarea>
+          </div>
+          <!--div class="form-group">
+          <label for="human" class="control-label">2 + 3 = ?</label>
+          <input type="text" class="form-control" required="true" id="human" name="human" placeholder="Respuesta">
+          </div-->
+          
+            <button id="submit" name="submit" class="btn btn-primary"">Enviar</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        </form>
+      </div>
+      <div class="row" style="display: none; padding-left: 1em;" id="thankyou_message">
+        <h2 class="pad_top1 pad_bot1" style="color: #fff;">Gracias por su consulta!</h2>
+        <h3 style="color: #fff; font-size: 1.2em;">Nos pondremos en contacto a la brevedad.</h3>
+      </div>
+    </div>
+  </div>
+</div>

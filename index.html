@@ -543,7 +543,7 @@
                 <div class="pad_top1 txt">
                     <h1 class="white">Contacto</h1>
                     <div class="sep2"></div>
-                    <form  method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxAjlrJRVK_S7DM2nlAl09bzvS6KiXPzhcyvfBvJntDhyOcd0s/exec">
+                    <form  method="post" id="gform" action="https://script.google.com/a/fotoeuropa.com.ar/macros/s/AKfycbwyi7zRo__FZxY73_dEYCW3Uj0LhO2AEFCKQZmi/exec">
                         <!--input id must be honeypot or else it wont work-->
                         <label class="sr-only">Keep this field blank</label>
                         <input id="honeypot" type="text" name="honeypot" value="" />
@@ -564,7 +564,7 @@
                         <input type="text" class="form-control" required="true" id="human" name="human" placeholder="Respuesta">
                         </div-->
                         <div class="col-sm-12 text-center">
-                            <button id="submit" name="submit" class="btn btn-primary" onclick="hideAndShow()">Enviar</button>
+                            <button id="submit" name="submit" class="btn btn-primary">Enviar</button>
                         </div>
                         <div class="col-sm-12">
                         </div>
@@ -572,7 +572,8 @@
                 </div>
                 <div class="row" style="display: none; padding-left: 1em;" id="thankyou_message">
                     <h2 class="pad_top1 pad_bot1" style="color: #fff;">Gracias por su consulta!</h2>
-                    <h3 style="color: #fff; font-size: 1.2em;">Nos pondremos en contacto a la brevedad.</h3>
+                    <h3 class="pad_bot1" style="color: #fff; font-size: 1.2em;">Nos pondremos en contacto a la brevedad.</h3>
+                    <button id="nuevoMensaje" class="btn btn-primary"">Nuevo Mensaje</button>
                 </div>
             </section>
             <section class="col-sm-6 col-md-6 col-lg-6" id="ubicacion">
@@ -639,12 +640,15 @@
             }
           });
 
-        function hideAndShow() {
-            setTimeout(function() {
-                document.getElementById("thankyou_message").display = "none";
-                document.getElementById("gform").display = "block";
-            }, 5000);
-        }
+        $("#nuevoMensaje").click(function(){
+            $('#thankyou_message').css('display', 'none');
+            $('#gform').css('display', 'block');
+            $("button").each(function(){
+                $(this).removeAttr('disabled');
+            });
+            $('textarea').val('');
+        });
+        
 
     </script>
     <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>

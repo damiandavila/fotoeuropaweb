@@ -91,21 +91,22 @@
                         <div class="row">
                             <div class="col-lg-7 col-md-7">
                                 
-                                <div class="row tapablandabig" id="foto_view"></div>
-                                <div class="row box text-center col-lg-3 col-md-3 tapablandasmall img1" onclick="foto('img/tapablanda1.jpg')">
+                                <div class="row productbig tapablanda1" id="foto_view"></div>
+                                <div class="row box text-center col-lg-3 col-md-3 productsmall tapablanda1" onclick="foto('tapablanda1')">
                                 </div>
-                                <div class="row box text-center col-lg-3 col-md-3 tapablandasmall img2" onclick=" foto('img/tapablanda2.jpg')">
+                                <div class="row box text-center col-lg-3 col-md-3 productsmall tapablanda2" onclick=" foto('tapablanda2')">
                                 </div> 
-                                <div class="row box text-center col-lg-3 col-md-3 tapablandasmall img3" onclick="foto('img/tapablanda3.jpg')">
+                                <div class="row box text-center col-lg-3 col-md-3 productsmall tapablanda3" onclick="foto('tapablanda3')">
                                 </div> 
-                                <div class="row box text-center col-lg-3 col-md-3 tapablandasmall img4" onclick="foto('img/tapablanda4.jpg')">
+                                <div class="row box text-center col-lg-3 col-md-3 productsmall tapablanda4" onclick="foto('tapablanda4')">
                                 </div>  
                             </div>
                             <div class="col-lg-5 col-md-5">
                                 <h3 class="pad_bot1">Fotolibro Tapa Blanda</h3>
                                 <p class="pad_bot1">Lorem ipsum dolor sit amet consectetur adipiscing elit tristique dictumst, litora eget per sollicitudin tellus turpis non parturient suscipit aptent, id donec duis blandit ut eros odio arcu. Ornare mus sociis varius faucibus per sollicitudin nostra orci, nam diam ligula sagittis purus sociosqu blandit, vulputate nisl dictumst cum maecenas ultricies fusce. Nibh commodo neque ac gravida accumsan malesuada phasellus volutpat, fermentum parturient imperdiet facilisi vel eleifend ultricies, sapien arcu risus justo curabitur venenatis porta.
                                 Etiam torquent urna dis auctor fames sapien aliquam, nostra pretium mauris cubilia id nisl nunc class, nibh euismod luctus pharetra aliquet augue. Class taciti tristique dapibus vulputate pretium vehicula facilisis aenean montes, laoreet mi potenti auctor ridiculus nisi morbi conubia mus, aliquet ac feugiat porta euismod nunc dis commodo. Nullam netus morbi lectus dignissim vitae class etiam at, nisl vel blandit phasellus facilisis iaculis fringilla euismod, tortor maecenas inceptos habitant hac arcu lacus.</p>
-                                <button type="button" class="btn"><a href="index.html#ubicacion" target="_blank">Consultar Precio</a></button>
+                                    <button type="button" class="btn" data-toggle="modal" data-target="#contactModal">
+                                        Consultar Precio</button>
                             </div>
                         </div>
                     </div>
@@ -113,13 +114,14 @@
                         <div class="row">
                             <div class="col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
                                 <h3 class="pad_top1">Fotolibro Tapa Blanda</h3>
-                                <div class="row tapablandabig"></div>
+                                <div class="row productbig tapablanda1"></div>
                             </div>
                             <div class="col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
                                 
                                 <p class="pad_bot1">Lorem ipsum dolor sit amet consectetur adipiscing elit tristique dictumst, litora eget per sollicitudin tellus turpis non parturient suscipit aptent, id donec duis blandit ut eros odio arcu. Ornare mus sociis varius faucibus per sollicitudin nostra orci, nam diam ligula sagittis purus sociosqu blandit, vulputate nisl dictumst cum maecenas ultricies fusce. Nibh commodo neque ac gravida accumsan malesuada phasellus volutpat, fermentum parturient imperdiet facilisi vel eleifend ultricies, sapien arcu risus justo curabitur venenatis porta.
                                 Etiam torquent urna dis auctor fames sapien aliquam, nostra pretium mauris cubilia id nisl nunc class, nibh euismod luctus pharetra aliquet augue. Class taciti tristique dapibus vulputate pretium vehicula facilisis aenean montes, laoreet mi potenti auctor ridiculus nisi morbi conubia mus, aliquet ac feugiat porta euismod nunc dis commodo. Nullam netus morbi lectus dignissim vitae class etiam at, nisl vel blandit phasellus facilisis iaculis fringilla euismod, tortor maecenas inceptos habitant hac arcu lacus.</p>
-                                <button type="button" class="btn"><a href="index.html#ubicacion" target="_blank">Consultar Precio</a></button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#contactModal">
+                                        Consultar Precio</button>
                             </div>
                         </div>
                     </div>
@@ -127,8 +129,47 @@
             </div>
         </div>
         <!--/.Fotolibros DESKTOP-->
+        <div id="contactModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content bg-grey white">
+                <div class="modal-header">
+                  <button type="button" class="close white" data-dismiss="modal" id="buttonDismiss">x</button>
+                  <h4 class="modal-title">Contacto</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="txt">
+                    <form  method="post" id="gform" action="https://script.google.com/a/fotoeuropa.com.ar/macros/s/AKfycbwyi7zRo__FZxY73_dEYCW3Uj0LhO2AEFCKQZmi/exec">
+                      <!--input id must be honeypot or else it wont work-->
+                      <label class="sr-only">Keep this field blank</label>
+                      <input id="honeypot" type="text" name="honeypot" value="" />
+                      <div class="form-group">
+                      <label for="name">Nombre o Código de cliente</label>
+                      <input type="text" required="true" class="form-control" id="name" name="name" placeholder="Nombre y apellido" value="">
+                      </div>
+                      <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" required="true" class="form-control" id="email" name="email" placeholder="ejemplo@dominio.com" value="">
+                      </div>
+                      <div class="form-group">
+                      <label for="message" class="control-label">Mensaje</label>
+                      <textarea class="form-control" rows="4" required="true" name="message">Consulta de precio: Fotolibro Tapa Blanda</textarea>
+                      </div>
+                      <button id="submit" name="submit" class="btn btn-primary"">Enviar</button>
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                    </form>
+                  </div>
+                  <div class="row" style="display: none; padding-left: 1em;" id="thankyou_message">
+                    <h2 class="pad_top1 pad_bot1" style="color: #fff;">Gracias por su consulta!</h2>
+                    <h3 style="color: #fff; font-size: 1.2em;">Nos pondremos en contacto a la brevedad.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>            
+        </div>
     <!--/.Main Container-->
     </section>
+
     <!--/.Section-->
     </div>
     <footer>
@@ -144,10 +185,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/ekko-lightbox.min.js"></script>
-    <!-- ubislider Javascript file -->
-    <script src="js/ubislider.min.js"></script>
-    
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
     <script>
         $('.map-container')
             .click(function() {
@@ -156,13 +194,25 @@
             .mouseleave(function() {
                 $(this).find('iframe').removeClass('clicked')
             });
+
+        $('#buttonDismiss').click(function () {
+            $('#thankyou_message').css('display', 'none');
+            $('#gform').css('display', 'block');
+            $("button").each(function(){
+                $(this).removeAttr('disabled');
+            });
+        });
     </script>
     <script type="text/javascript">
-        function foto(img)
+        function foto(clase)
         {   
-            document.getElementById("foto_view").style.backgroundImage = "url("+img+")";
+            $(".productsmall").click(function (event) {
+                    $("#foto_view").attr('class', 'row productbig ' + clase);
+              });
+            //document.getElementById("foto_view").style.backgroundImage = "url("+img+")";
         }
-</script>
+    </script>
+    
 </body>
 
 </html>

@@ -64,27 +64,27 @@ div.border-sm h3 {
 }
 
 div.border.tapablanda {
-    background-image: url(../img/tapablanda.jpg);
+    background-image: url(../img/fotolibros/tapablanda.jpg);
 }
 
 div.border.tapadura {
-    background-image: url(../img/tapadura.jpg);
+    background-image: url(../img/fotolibros/tapadura.jpg);
 }
 
 div.border.offset {
-    background-image: url(../img/offset.jpg);
+    background-image: url(../img/fotolibros/offset.jpg);
 }
 
 div.border.anillado {
-    background-image: url(../img/anillado.jpg);
+    background-image: url(../img/fotolibros/anillado.jpg);
 }
 
 div.border.diptico {
-    background-image: url(../img/diptico.jpg);
+    background-image: url(../img/fotolibros/diptico.jpg);
 }
 
 div.border.portapendvd {
-    background-image: url(../img/portapendvd.jpg);
+    background-image: url(../img/fotolibros/portapendvd.jpg);
 }
 
 div.border.retoque {
@@ -123,40 +123,22 @@ div.border.merch {
         background-color: #f5f5f5;
     }
 
-    div.tapablandabig {
+    div.productbig {
         height: 35em;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        background-image: url(../img/tapablanda1.jpg);    
-    }
-
-    .zoom {
-        padding: 50px;
-        /*background-color: green;*/
-        transition: transform .2s; /* Animation */
-        width: 40em;
-        height: 40em;
-        margin: 0 auto;
-    }
-
-    .zoom:hover {
-        overflow: visible;
-        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
 }
 
-
-div.tapablandabig {
+div.productbig {
     min-height: 24em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../img/tapablanda1.jpg);    
 }
 
-
-div.tapablandasmall {
+div.productsmall {
     margin-left: .1em;
     margin-right: .1em;
     height: 8em;
@@ -167,22 +149,552 @@ div.tapablandasmall {
     background-size: contain;
 }
 
-div.tapablandasmall:hover {
+div.productsmall:hover {
     cursor: pointer;
 }
 
-div.tapablandasmall.img1 {
-    background-image: url(../img/tapablanda1.jpg);   
+/* PRODUCTOS */
+
+/* FOTOLIBROS */
+
+div.tapablanda1 {
+    background-image: url(../img/fotolibros/tapablanda1.jpg);   
 }
 
-div.tapablandasmall.img2 {
-    background-image: url(../img/tapablanda2.jpg);   
+div.tapablanda2 {
+    background-image: url(../img/fotolibros/tapablanda2.jpg);   
 }
 
-div.tapablandasmall.img3 {
-    background-image: url(../img/tapablanda3.jpg);   
+div.tapablanda3 {
+    background-image: url(../img/fotolibros/tapablanda3.jpg);   
 }
 
-div.tapablandasmall.img4 {
-    background-image: url(../img/tapablanda4.jpg);   
+div.tapablanda4 {
+    background-image: url(../img/fotolibros/tapablanda4.jpg);   
+}
+
+div.tapadura1 {
+    background-image: url(../img/fotolibros/tapadura1.jpg);   
+}
+
+div.tapadura2 {
+    background-image: url(../img/fotolibros/tapadura2.jpg);   
+}
+
+div.tapadura3 {
+    background-image: url(../img/fotolibros/tapadura3.jpg);   
+}
+
+div.tapadura4 {
+    background-image: url(../img/fotolibros/tapadura4.jpg);   
+}
+
+div.anillado1 {
+    background-image: url(../img/fotolibros/anillado1.jpg);   
+}
+
+div.anillado2 {
+    background-image: url(../img/fotolibros/anillado2.jpg);   
+}
+
+div.foffset1 {
+    background-image: url(../img/fotolibros/foffset1.jpg);   
+}
+
+div.foffset2 {
+    background-image: url(../img/fotolibros/foffset2.jpg);   
+}
+
+div.foffset3 {
+    background-image: url(../img/fotolibros/foffset3.jpg);   
+}
+
+
+div.portapen1 {
+    background-image: url(../img/fotolibros/portapen1.jpg);   
+}
+
+div.portapen2 {
+    background-image: url(../img/fotolibros/portapen2.jpg);   
+}
+
+div.portapen3 {
+    background-image: url(../img/fotolibros/portapen3.jpg);   
+}
+
+div.portapen4 {
+    background-image: url(../img/fotolibros/portapen4.jpg);   
+}
+
+div.diptico1 {
+    background-image: url(../img/fotolibros/diptico1.jpg);   
+}
+
+div.diptico2 {
+    background-image: url(../img/fotolibros/diptico2.jpg);   
+}
+
+
+/* DISENO GRAFICO */
+
+div.retoque1 {
+    background-image: url(../img/diseno/retoque001.jpg);   
+}
+
+div.retoque2 {
+    background-image: url(../img/diseno/retoque002.jpg);   
+}
+
+div.retoque3 {
+    background-image: url(../img/diseno/retoque003.jpg);   
+}
+
+div.retoque4 {
+    background-image: url(../img/diseno/retoque004.jpg);   
+}
+
+div.merch1 {
+    background-image: url(../img/diseno/merch001.jpg);   
+}
+
+div.merch2 {
+    background-image: url(../img/diseno/merch002.png);   
+}
+
+div.merch3 {
+    background-image: url(../img/diseno/merch003.jpg);   
+}
+
+div.merch4 {
+    background-image: url(../img/diseno/merch004.jpg);   
+}
+
+div.imarca1 {
+    background-image: url(../img/diseno/imarca001.jpg);   
+}
+
+div.imarca2 {
+    background-image: url(../img/diseno/imarca002.jpg);   
+}
+
+div.imarca3 {
+    background-image: url(../img/diseno/imarca003.jpg);   
+}
+
+div.imarca4 {
+    background-image: url(../img/diseno/imarca004.jpg);   
+}
+
+div.vidrieras1 {
+    background-image: url(../img/diseno/vidrieras001.jpg);   
+}
+
+div.vidrieras2 {
+    background-image: url(../img/diseno/vidrieras002.jpg);   
+}
+
+div.vidrieras3 {
+    background-image: url(../img/diseno/vidrieras003.jpg);   
+}
+
+div.vidrieras4 {
+    background-image: url(../img/diseno/vidrieras004.jpg);   
+}
+
+div.makeup1 {
+    background-image: url(../img/diseno/makeup001.jpg);   
+}
+
+div.makeup2 {
+    background-image: url(../img/diseno/makeup002.jpg);   
+}
+
+div.makeup3 {
+    background-image: url(../img/diseno/makeup003.jpg);   
+}
+
+div.makeup4 {
+    background-image: url(../img/diseno/makeup004.jpg);   
+}
+
+div.scan1 {
+    background-image: url(../img/diseno/scan001.jpg);   
+}
+
+div.scan2 {
+    background-image: url(../img/diseno/scan002.jpg);   
+}
+
+
+/* GRAFICA */
+
+div.portab1 {
+    background-image: url(../img/grafica/portab001.jpg);   
+}
+
+div.portab2 {
+    background-image: url(../img/grafica/portab002.jpg);   
+}
+
+div.fondos1 {
+    background-image: url(../img/grafica/fondos001.jpg);   
+}
+
+div.fondos2 {
+    background-image: url(../img/grafica/fondos002.jpg);   
+}
+
+div.fondos3 {
+    background-image: url(../img/grafica/fondos003.jpg);   
+}
+
+div.fondos4 {
+    background-image: url(../img/grafica/fondos004.jpg);   
+}
+
+div.vcorte1 {
+    background-image: url(../img/grafica/vcorte001.jpg);   
+}
+
+div.vcorte2 {
+    background-image: url(../img/grafica/vcorte002.jpg);   
+}
+
+div.vcorte3 {
+    background-image: url(../img/grafica/vcorte003.jpg);   
+}
+
+div.vcorte4 {
+    background-image: url(../img/grafica/vcorte004.jpg);   
+}
+
+div.vsticker1 {
+    background-image: url(../img/grafica/vsticker001.jpg);   
+}
+
+div.vsticker2 {
+    background-image: url(../img/grafica/vsticker002.jpg);   
+}
+
+div.vsticker3 {
+    background-image: url(../img/grafica/vsticker003.jpg);   
+}
+
+div.vsticker4 {
+    background-image: url(../img/grafica/vsticker004.jpg);   
+}
+
+div.lonabo1 {
+    background-image: url(../img/grafica/lonabo001.jpg);   
+}
+
+div.lonabo2 {
+    background-image: url(../img/grafica/lonabo002.jpg);   
+}
+
+div.lonabo3 {
+    background-image: url(../img/grafica/lonabo003.jpg);   
+}
+
+div.lonabo4 {
+    background-image: url(../img/grafica/lonabo004.jpg);   
+}
+
+div.backlight1 {
+    background-image: url(../img/grafica/backlight001.jpg);   
+}
+
+div.backlight2 {
+    background-image: url(../img/grafica/backlight002.jpg);   
+}
+
+div.backlight3 {
+    background-image: url(../img/grafica/backlight003.jpg);   
+}
+
+div.vvidriera1 {
+    background-image: url(../img/grafica/vvidriera001.jpg);   
+}
+
+div.vvidriera2 {
+    background-image: url(../img/grafica/vvidriera002.jpg);   
+}
+
+div.vvidriera3 {
+    background-image: url(../img/grafica/vvidriera003.jpg);   
+}
+
+div.vvidriera4 {
+    background-image: url(../img/grafica/vvidriera004.jpg);   
+}
+
+div.vtransp1 {
+    background-image: url(../img/grafica/vtransp001.jpg);   
+}
+
+div.vtransp2 {
+    background-image: url(../img/grafica/vtransp002.jpg);   
+}
+
+div.vesmerilado1 {
+    background-image: url(../img/grafica/vesmerilado001.jpg);   
+}
+
+div.vesmerilado2 {
+    background-image: url(../img/grafica/vesmerilado002.jpg);   
+}
+
+div.vesmerilado3 {
+    background-image: url(../img/grafica/vesmerilado003.jpg);   
+}
+
+div.vesmerilado4 {
+    background-image: url(../img/grafica/vesmerilado004.jpg);   
+}
+
+div.pmural1 {
+    background-image: url(../img/grafica/pmural001.jpg);   
+}
+
+div.pmural2 {
+    background-image: url(../img/grafica/pmural002.jpg);   
+}
+
+div.pmural3 {
+    background-image: url(../img/grafica/pmural003.jpg);   
+}
+
+div.pmural4 {
+    background-image: url(../img/grafica/pmural004.jpg);   
+}
+
+div.microperf1 {
+    background-image: url(../img/grafica/microperf001.jpg);   
+}
+
+div.microperf2 {
+    background-image: url(../img/grafica/microperf002.jpg);   
+}
+
+div.microperf3 {
+    background-image: url(../img/grafica/microperf003.jpg);   
+}
+
+div.microperf4 {
+    background-image: url(../img/grafica/microperf004.jpg);   
+}
+
+div.lbcartel1 {
+    background-image: url(../img/grafica/lbcartel001.jpg);   
+}
+
+div.lbcartel2 {
+    background-image: url(../img/grafica/lbcartel002.jpg);   
+}
+
+div.lbcartel3 {
+    background-image: url(../img/grafica/lbcartel003.jpg);   
+}
+
+div.lbcartel4 {
+    background-image: url(../img/grafica/lbcartel004.jpg);   
+}
+
+
+/*  LABORATORIO */
+
+
+div.fotolienzo1 {
+    background-image: url(../img/laboratorio/fotolienzo001.jpg);   
+}
+
+div.fotolienzo2 {
+    background-image: url(../img/laboratorio/fotolienzo002.jpg);   
+}
+
+div.fotolienzo3 {
+    background-image: url(../img/laboratorio/fotolienzo003.jpg);   
+}
+
+div.fotolienzo4 {
+    background-image: url(../img/laboratorio/fotolienzo004.jpg);   
+}
+
+div.rollos1 {
+    background-image: url(../img/laboratorio/rollos001.jpg);   
+}
+
+div.rollos2 {
+    background-image: url(../img/laboratorio/rollos002.jpg);   
+}
+
+div.rollos3 {
+    background-image: url(../img/laboratorio/rollos003.jpg);   
+}
+
+div.rollos4 {
+    background-image: url(../img/laboratorio/rollos004.jpg);   
+}
+
+div.impresion1 {
+    background-image: url(../img/laboratorio/impresion001.jpg);   
+}
+
+div.impresion2 {
+    background-image: url(../img/laboratorio/impresion002.jpg);   
+}
+
+div.encuad1 {
+    background-image: url(../img/laboratorio/encuad001.jpg);   
+}
+
+div.encuad2 {
+    background-image: url(../img/laboratorio/encuad002.jpg);   
+}
+
+div.encuad3 {
+    background-image: url(../img/laboratorio/encuad003.jpg);   
+}
+
+div.encuad4 {
+    background-image: url(../img/laboratorio/encuad004.jpg);   
+}
+
+
+/* OFFSET */
+
+div.a31 {
+     background-image: url(../img/offset/A3001.jpg);
+}
+
+div.a41 {
+     background-image: url(../img/offset/A4001.jpg);
+}
+
+div.a42 {
+     background-image: url(../img/offset/A4002.jpg);
+}
+
+div.a43 {
+     background-image: url(../img/offset/A4003.jpg);
+}
+
+div.a44 {
+     background-image: url(../img/offset/A4004.jpg);
+}
+
+div.autoad1 {
+     background-image: url(../img/offset/autoad001.jpg);
+}
+
+div.autoad2 {
+     background-image: url(../img/offset/autoad002.jpg);
+}
+
+div.autoad3 {
+     background-image: url(../img/offset/autoad003.jpg);
+}
+
+div.autoad4 {
+     background-image: url(../img/offset/autoad004.jpg);
+}
+
+div.carpeta1 {
+     background-image: url(../img/offset/carpeta001.jpg);
+}
+
+div.carpeta2 {
+     background-image: url(../img/offset/carpeta002.jpg);
+}
+
+div.carpeta3 {
+     background-image: url(../img/offset/carpeta003.jpg);
+}
+
+div.diploma1 {
+     background-image: url(../img/offset/diploma001.jpg);
+}
+
+div.diploma2 {
+     background-image: url(../img/offset/diploma002.jpg);
+}
+
+div.diptico1 {
+     background-image: url(../img/offset/diptico001.jpg);
+}
+
+div.diptico2 {
+     background-image: url(../img/offset/diptico002.jpg);
+}
+
+div.diptico3 {
+     background-image: url(../img/offset/diptico003.jpg);
+}
+
+div.diptico4 {
+     background-image: url(../img/offset/diptico004.jpg);
+}
+
+div.iman1 {
+     background-image: url(../img/offset/iman001.jpg);
+}
+
+div.iman2 {
+     background-image: url(../img/offset/iman002.jpg);
+}
+
+div.invitacion1 {
+     background-image: url(../img/offset/invitacion001.jpg);
+}
+
+div.invitacion2 {
+     background-image: url(../img/offset/invitacion002.jpg);
+}
+
+div.invitacion3 {
+     background-image: url(../img/offset/invitacion003.jpg);
+}
+
+div.tarjeta1 {
+     background-image: url(../img/offset/tarjeta001.jpg);
+}
+
+div.tarjeta2 {
+     background-image: url(../img/offset/tarjeta002.jpg);
+}
+
+div.tarjeta3 {
+     background-image: url(../img/offset/tarjeta003.jpg);
+}
+
+div.tarjeta4 {
+     background-image: url(../img/offset/tarjeta004.jpg);
+}
+
+div.triptico1 {
+     background-image: url(../img/offset/triptico001.jpg);
+}
+
+div.triptico2 {
+     background-image: url(../img/offset/triptico002.jpg);
+}
+
+div.triptico3 {
+     background-image: url(../img/offset/triptico003.jpg);
+}
+
+div.volanteA51 {
+     background-image: url(../img/offset/volanteA5001.jpg);
+}
+
+div.volanteA52 {
+     background-image: url(../img/offset/volanteA5002.jpg);
+}
+
+div.volanteA53 {
+     background-image: url(../img/offset/volanteA5003.jpg);
+}
+
+div.volanteA54 {
+     background-image: url(../img/offset/volanteA5004.jpg);
 }
